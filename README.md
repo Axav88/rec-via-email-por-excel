@@ -14,16 +14,16 @@
 
 Lee tu Excel de pedidos, busca la columna **ENTREGA** y, cuando falta una semana o menos, manda **un solo correo resumen** con todas las órdenes por vencer. No necesita servidor, no cuesta nada y no sube tus datos a ningún lado.
 
-## ✨ Características
+## Q hace
 
-- 📧 **Correo** con resumen en HTML (colores según urgencia) + 🔔 **notificación nativa de Windows**.
-- 🧠 **No repite avisos**: guarda qué ya avisó. Si cambias la fecha de entrega, avisa de nuevo.
-- 💤 **Aguanta compus apagadas**: avisa en un rango (≤ 7 días), no "exactamente 7 días antes", así que si ese día no se prendió la compu, avisa en cuanto se prenda.
-- 📊 **Tolerante con el Excel**: encuentra las columnas por nombre (da igual su posición), acepta fechas como fecha real o texto, funciona aunque el archivo esté abierto, y agrupa varios renglones de una misma orden en un solo aviso.
-- 🔁 **Reintenta solo** si el correo falla (sin internet, por ejemplo).
-- 🧪 Modo `--dry-run` para probar sin enviar nada.
+-  **Correo** con resumen en HTML colores según urgencia rojo/azul +  **notificación nativa de Windows**.
+- **Validación: No repite avisos**: guarda qué ya avisó. Si cambias la fecha de entrega, avisa de nuevo!!!.
+-  **Aguanta compus apagadas**: avisa en un rango (≤ 7 días), no "exactamente 7 días antes", así que si ese día no se prendió la compu, avisa en cuanto se prenda.
+-  **Tolerante con el Excel**: encuentra las columnas por nombre (da igual su posición), acepta fechas como fecha real o texto, funciona aunque el archivo esté abierto, y agrupa varios renglones de una misma orden en un solo aviso.
+-  **Reintenta solo** si el correo falla (sin internet, por ejemplo).
+-  Modo `--dry-run` para probar sin enviar nada.
 
-## 🚀 Instalación (Windows)
+##  Instalación (Windows)
 
 Necesitas [Python 3.10+](https://www.python.org/downloads/) (marca *"Add Python to PATH"* al instalar).
 
@@ -57,7 +57,7 @@ powershell -ExecutionPolicy Bypass -File scripts\instalar_tarea.ps1
 
 Crea una tarea programada que se ejecuta **al iniciar sesión** y **todos los días a las 9:00** (si la compu estaba apagada, corre en cuanto se pueda). Si marca "acceso denegado", abre PowerShell como administrador. Para quitarla: `scripts\desinstalar_tarea.ps1`.
 
-## ⚙️ Configuración (`.env`)
+##  Configuración (`.env`)
 
 | Variable | Qué hace | Por defecto |
 |---|---|---|
@@ -68,7 +68,7 @@ Crea una tarea programada que se ejecuta **al iniciar sesión** y **todos los d�
 | `SMTP_USER` / `SMTP_PASSWORD` | Cuenta que envía | — |
 | `MAIL_TO` | Destinatarios (separados por coma) | `SMTP_USER` |
 
-## 📑 Formato del Excel
+##  Formato del Excel
 
 Solo se necesitan estos encabezados (mayúsculas, acentos y espacios extra no importan):
 
@@ -79,7 +79,7 @@ Solo se necesitan estos encabezados (mayúsculas, acentos y espacios extra no im
 | `ORDEN DE COMPRA` | Opcional (si falta, el aviso dice "(sin número)") |
 | `CANT/PZS`, `DESCRIPCION` | Opcionales, salen como detalle en el correo |
 
-## 🗂️ Estructura
+##  Estructura
 
 ```
 recordatorio.py        # punto de entrada (CLI)
@@ -92,24 +92,22 @@ scripts/               # instalar/desinstalar la tarea programada
 tests/                 # pruebas (python -m unittest discover -s tests)
 ```
 
-## 🧪 Pruebas
+##  Tests
 
 ```powershell
 python -m unittest discover -s tests -v
 python recordatorio.py --dry-run --hoy 2026-10-18   # simula otra fecha
 ```
 
-## 🔒 Privacidad
+##  Privacidad
 
-El Excel se lee localmente y nunca se sube a ningún lado. El `.gitignore` excluye `.env`, los `.xlsx` y la carpeta `datos/` para que no se cuelen al repositorio.
+El Excel se lee localmente y nunca se sube a ningún lado. 
 
-## 🗺️ Ideas a futuro
+## Ideas a futuro
 
-- Columna `ENTREGADO` en el Excel para dejar de avisar de lo ya surtido.
-- Avisos escalonados (7 días, 3 días y el mismo día).
 - Aviso por WhatsApp o Telegram.
 - Empaquetar como `.exe` con PyInstaller para no instalar Python.
 
-## 📄 Licencia
+##  Licencia
 
 [MIT](LICENSE)
