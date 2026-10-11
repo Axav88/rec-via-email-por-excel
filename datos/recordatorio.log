@@ -1,0 +1,34 @@
+2026-10-06 23:47:25  ERROR   No pude leer el Excel: No encuentro el Excel: C:\Users\TU_USUARIO\Documents\pedidos.xlsx
+2026-10-06 23:49:36  ERROR   No pude leer el Excel: No encuentro el Excel: L:\Recordatorio_entregas_py\muestra_alan.xlsx
+2026-10-06 23:52:36  ERROR   No pude leer el Excel: No encuentro el Excel: L:\Recordatorio_entregas_py\muestra_alan.xlsx
+2026-10-06 23:53:08  ERROR   No pude leer el Excel: No encuentro el Excel: L:\Recordatorio_entregas_py\muestra_alan.xlsx
+2026-10-06 23:54:00  ERROR   No pude leer el Excel: No encuentro el Excel: L:\Recordatorio_entregas_py\muestra_alan.xlsx
+2026-10-06 23:59:05  ERROR   No pude leer el Excel: No encuentro el Excel: L:\Recordatorio_entregas_py\muestra_alan.xlsx
+2026-10-07 00:02:21  ERROR   No pude leer el Excel: No encuentro el Excel: L:\Recordatorio_entregas_py\muestra_alan.xlsx
+2026-10-07 00:03:39  ERROR   No pude leer el Excel: No encuentro el Excel: L:\Recordatorio_entregas_py\muestra_alan.xlsx
+2026-10-07 00:32:39  ERROR   No pude leer el Excel: No encuentro el Excel: L:\Recordatorio_entregas_py\muestra_alan.xlsx
+2026-10-07 00:37:24  INFO    2026-10-18: 35 filas, 20 entregas en los próximos 7 días, 20 por avisar.
+2026-10-07 00:37:24  INFO      * La orden de compra número "4505581520" del cliente "arca zapopan" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "(sin número)" del cliente "basculas revuelta montecarlo" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "227792" del cliente "basculas revuelta montecarlo" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "32698" del cliente "basculas revuelta montecarlo" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "55414" del cliente "cielectric" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57057" del cliente "cielectric" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57389" del cliente "cielectric" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57494" del cliente "cielectric" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57507" del cliente "cielectric" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57563" del cliente "cielectric" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57569" del cliente "cielectric" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "P260545920" del cliente "kia" vence en 2 días (martes 20/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "P260451808" del cliente "Ale no tenia la orden /pregunté a charlie" vence la próxima semana (domingo 25/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57570" del cliente "cielectric" vence la próxima semana (domingo 25/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57574" del cliente "cielectric" vence la próxima semana (domingo 25/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57579" del cliente "cielectric" vence la próxima semana (domingo 25/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57666" del cliente "cielectric" vence la próxima semana (domingo 25/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57718" del cliente "cielectric" vence la próxima semana (domingo 25/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "57844" del cliente "cielectric" vence la próxima semana (domingo 25/10/2026).
+2026-10-07 00:37:24  INFO      * La orden de compra número "58124" del cliente "cielectric" vence la próxima semana (domingo 25/10/2026).
+2026-10-07 00:39:43  INFO    Correo enviado a alanacostav@gmail.com
+2026-10-07 00:40:34  INFO    2026-10-18: 35 filas, 20 entregas en los próximos 7 días, 20 por avisar.
+2026-10-07 00:40:37  INFO    Correo enviado a alanacostav@gmail.com
+2026-10-07 00:40:37  WARNING Notificación de escritorio omitida: winotify no está instalado (solo Windows).
